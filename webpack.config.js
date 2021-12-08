@@ -61,7 +61,23 @@ module.exports = {
                 test: /\.(ttf|woff|woff2|eot)$/,
                 use: ['file-loader']
             },
-
+            {
+                test: /\.pug$/,
+                use: [
+                    {
+                        loader: 'html-loader',
+                        options: {
+                            minimize: isProd,
+                        }
+                    },
+                    {
+                        loader: 'pug-html-loader',
+                        options: {
+                            minimize: isProd,
+                        }
+                    }
+                ]
+            }
         ]
     }
 }

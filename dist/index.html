@@ -1,1 +1,87 @@
-<head><script defer="defer" src="main.9fe0480ff6684a071bb8.js"></script><link href="main.992fea47a6554ee012e1.css" rel="stylesheet"></head>
+<head><script defer="defer" src="main.51f05e498daf620b0742.js"></script><link href="main.d9629dc3df7b0f3dab8e.css" rel="stylesheet"></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ../node_modules/html-loader/dist/cjs.js):
+  ValidationError: Invalid options object. HTML Loader has been initialized using an options object that does not match the API schema.
+   - options has an unknown property 'minify'. These properties are valid:
+     object { preprocessor?, sources?, minimize?, esModule? }
+      at validate (/Users/sergo/Documents/GitHub/SergoVorot/node_modules/schema-utils/dist/validate.js:105:11)
+      at Object.getOptions (/Users/sergo/Documents/GitHub/SergoVorot/node_modules/webpack/lib/NormalModule.js:578:19)
+      at Object.loader (/Users/sergo/Documents/GitHub/SergoVorot/node_modules/html-loader/dist/index.js:17:27)
+  ModuleBuildError: Module build failed (from ../node_modules/html-loader/dist/cjs.js):
+  ValidationError: Invalid options object. HTML Loader has been initialized using an options object that does not match the API schema.
+   - options has an unknown property 'minify'. These properties are valid:
+     object { preprocessor?, sources?, minimize?, esModule? }
+      at validate (/Users/sergo/Documents/GitHub/SergoVorot/node_modules/schema-utils/dist/validate.js:105:11)
+      at Object.getOptions (/Users/sergo/Documents/GitHub/SergoVorot/node_modules/webpack/lib/NormalModule.js:578:19)
+      at Object.loader (/Users/sergo/Documents/GitHub/SergoVorot/node_modules/html-loader/dist/index.js:17:27)
+      at processResult (/Users/sergo/Documents/GitHub/SergoVorot/node_modules/webpack/lib/NormalModule.js:751:19)
+      at /Users/sergo/Documents/GitHub/SergoVorot/node_modules/webpack/lib/NormalModule.js:853:5
+      at /Users/sergo/Documents/GitHub/SergoVorot/node_modules/loader-runner/lib/LoaderRunner.js:399:11
+      at /Users/sergo/Documents/GitHub/SergoVorot/node_modules/loader-runner/lib/LoaderRunner.js:251:18
+  
+  - validate.js:105 validate
+    [SergoVorot]/[schema-utils]/dist/validate.js:105:11
+  
+  - NormalModule.js:578 Object.getOptions
+    [SergoVorot]/[webpack]/lib/NormalModule.js:578:19
+  
+  - index.js:17 Object.loader
+    [SergoVorot]/[html-loader]/dist/index.js:17:27
+  
+  - ModuleBuildError: Module build failed (from ../node_modules/html-loader/dist/cjs.js):
+  
+  - ValidationError: Invalid options object. HTML Loader has been initialized using an options object that does not match the API schema.
+  
+  - - options has an unknown property 'minify'. These properties are valid:
+  
+  - object { preprocessor?, sources?, minimize?, esModule? }
+  
+  - validate.js:105 validate
+    [SergoVorot]/[schema-utils]/dist/validate.js:105:11
+  
+  - NormalModule.js:578 Object.getOptions
+    [SergoVorot]/[webpack]/lib/NormalModule.js:578:19
+  
+  - index.js:17 Object.loader
+    [SergoVorot]/[html-loader]/dist/index.js:17:27
+  
+  - NormalModule.js:751 processResult
+    [SergoVorot]/[webpack]/lib/NormalModule.js:751:19
+  
+  - NormalModule.js:853 
+    [SergoVorot]/[webpack]/lib/NormalModule.js:853:5
+  
+  - LoaderRunner.js:399 
+    [SergoVorot]/[loader-runner]/lib/LoaderRunner.js:399:11
+  
+  - LoaderRunner.js:251 
+    [SergoVorot]/[loader-runner]/lib/LoaderRunner.js:251:18
+  
+  - child-compiler.js:169 
+    [SergoVorot]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:559 
+    [SergoVorot]/[webpack]/lib/Compiler.js:559:11
+  
+  - Compiler.js:1129 
+    [SergoVorot]/[webpack]/lib/Compiler.js:1129:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [SergoVorot]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1125 
+    [SergoVorot]/[webpack]/lib/Compiler.js:1125:33
+  
+  - Compilation.js:2782 finalCallback
+    [SergoVorot]/[webpack]/lib/Compilation.js:2782:11
+  
+  - Compilation.js:3087 
+    [SergoVorot]/[webpack]/lib/Compilation.js:3087:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [SergoVorot]/[tapable]/lib/Hook.js:18:14
+  
+</pre>
