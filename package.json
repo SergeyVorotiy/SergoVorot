@@ -1,0 +1,23 @@
+{
+  "name": "sergovorot",
+  "version": "1.0.0",
+  "description": "It's MetaLamp Lessons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyVorotiy/SergoVorot.git"
+  },
+  "author": "Sergey Voroty (sergei.vorot@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyVorotiy/SergoVorot/issues"
+  },
+  "homepage": "https://github.com/SergeyVorotiy/SergoVorot#readme",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
