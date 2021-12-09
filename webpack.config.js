@@ -36,16 +36,23 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin({
-            template: "./index.pug",
-            minify: {
-                collapseWhitespace: isProd,
-            }
+            template: "./UIKit/ColorsAndType/colorsAndType.pug",
+            minify: false
         }),
         new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css',
         }),
-        new HtmlWebpackPugPlugin(),
+        new HtmlWebpackPugPlugin({
+            adjustIndent: false
+        }),
+        // new CopyWebpackPlugin({
+        //     patterns: [
+        //         {
+        //             from: path.resolve(__dirname, 'src/images'), to: path.resolve(__dirname, 'dist'),
+        //         },
+        //     ]
+        // }),
     ],
     module: {
         rules: [
@@ -73,7 +80,7 @@ module.exports = {
                     {
                         loader: 'pug-html-loader',
                         options: {
-                            minimize: isProd,
+                            minimize: isProd
                         }
                     }
                 ]
