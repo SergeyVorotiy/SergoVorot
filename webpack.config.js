@@ -36,7 +36,8 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin({
-            template: "./UIKit/ColorsAndType/colorsAndType.pug",
+            template: '' +
+                './UIKit/FormElements/formElements.pug',
             minify: false
         }),
         new CleanWebpackPlugin(),

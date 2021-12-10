@@ -1,9 +1,13 @@
 @import "@src/fonts/fonts.css";
 @import "@src/UIKit/Cards/styleCards/cards.css";
 @import "@src/UIKit/ColorsAndType/StyleCAT/styleCAT.css";
+@import "@src/UIKit/FormElements/StyleFormElenents/styleFormElements.css";
 .flex {
     display: flex;
 
+}
+.Upp {
+    text-transform: uppercase;
 }
 .jconbetween {
     justify-content: space-between;
