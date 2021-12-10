@@ -20,7 +20,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     resolve: {
-        extensions: ['.js', '.css', '.png'],
+        extensions: ['.js', '.css', '.png', '.pug', 'svg'],
         alias: {
             '@src': path.resolve(__dirname, 'src'),
         }
@@ -61,7 +61,7 @@ module.exports = {
                 use: [MiniCssExtractPlugin.loader, 'css-loader']
             },
             {
-                test: /\.(png|jpg|svg)$/,
+                test: /\.(png|jpg)$/,
                 use: ['file-loader']
             },
             {
@@ -73,15 +73,11 @@ module.exports = {
                 use: [
                     {
                         loader: 'html-loader',
-                        options: {
-                            minimize: isProd,
-                        }
+
                     },
                     {
                         loader: 'pug-html-loader',
-                        options: {
-                            minimize: isProd
-                        }
+
                     }
                 ]
             }

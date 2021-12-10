@@ -3,6 +3,10 @@
 @import "@src/UIKit/ColorsAndType/StyleCAT/styleCAT.css";
 .flex {
     display: flex;
+
+}
+.jconbetween {
+    justify-content: space-between;
 }
 .alignLeft {
     text-align: left;
@@ -10,16 +14,9 @@
 .alignRight {
     text-align: right;
 }
-.metalampLogo {
-    display: block;
-    width: 48px;
-    height: 48px;
-    margin-top: 30px;
-    margin-left: 30px;
-    border: solid 3px red;
-}
+
 .container {
-    padding-top: 0;
+    padding-top: 67px;
     max-width: 1920px;
     width: 80%;
     min-width: 320px;
@@ -29,16 +26,20 @@ h1 {
     font-size: 24px;
     text-align: center;
     font-weight: bold;
+    line-height: 29px;
 }
 h2 {
     font-size: 19px;
     font-weight: bold;
+    line-height: 23px;
 }
 h3 {
     font-size: 12px;
     font-weight: bold;
+    line-height: 14px;
 }
 body {
     font-weight: normal;
     font-size: 14px;
+    line-height: 24px;
 }
