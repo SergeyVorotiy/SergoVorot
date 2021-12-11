@@ -126,6 +126,46 @@ body {
     display: block;
     width: 320px;
 }
+.defTextField {
+    width: 320px;
+    height: 44px;
+    border-radius: 4px;
+    border-color: rgba(31, 32, 65, 0.5);;
+    color: #1F2041;
+    font-size: 14px;
+    font-family: Conv_Montserrat;
+}
+.block {
+    margin-top: 20px;
+}
+.dropdown {
+    display: inline-flex;
+
+}
+.dropdownArrowForward {
+    display: inline-flex;
+}
+.expendMore {
+    width: 44px;
+    height: 44px;
+    margin-left: -44px;
+    background: url(f1d0b03ffb3ec3dc0ed8.svg) no-repeat center center;
+}
+.arrowForward {
+    width: 44px;
+    height: 44px;
+    margin-left: -44px;
+    background: url(334ccd2a2fa4a00d6270.svg) no-repeat center center;
+}
+.dateDropdown {
+    width: 150px;
+}
+.filterDateDropdown {
+    width: 266px;
+}
+.sub {
+    width: 266px;
+}
 /*!*********************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!./styles/style.css ***!
   \*********************************************************************/
@@ -147,7 +187,7 @@ body {
 }
 
 .container {
-    padding-top: 67px;
+    padding-top: 62px;
     max-width: 1920px;
     width: 80%;
     min-width: 320px;

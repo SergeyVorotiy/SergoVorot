@@ -3,10 +3,42 @@
 
 ////////////////
 .metalampLogo
-    .container.flex
-        .column.columnLeft
-            .block.flex.jconbetween
-                h3.bold.Upp Text Field
-                h3.regularText.Upp Default
-            input(class="defTextField" type="e-mail", value="E-MAIL")
-
+.container.flex
+    .column.columnLeft
+        .block.flex.jconbetween
+            h3.bold.Upp Text Field
+            h3.regularText.Upp.darkShade50 Default
+        input(class="defTextField darkShade25" type="e-mail", value="Email")
+        .block.flex.jconbetween
+            h3.bold.Upp Text Field
+            h3.regularText.Upp.darkShade50 Hover / Focus
+        input(class="defTextField darkShade75" type="e-mail", value="This is pretty awesome")
+        .block
+            h3.bold.Upp Dropdown
+        .dropdown
+            input(class="defTextField darkShade25", type="text", value="Сколько гостей")
+            .expendMore
+        .block.flex.jconbetween
+            h3.bold.Upp masked text field
+        input(class="defTextField darkShade25" type="text", value="ДД.ММ.ГГГГ")
+        .block.flex.jconbetween
+            .block
+                h3.bold.Upp date Dropdown
+                .dropdown
+                    input(class="defTextField dateDropdown darkShade25", type="text", value="ДД.ММ.ГГГГ")
+                    .expendMore
+            .block
+                h3.bold.Upp date Dropdown
+                .dropdown
+                    input(class="defTextField dateDropdown darkShade25", type="text", value="19.08.2019")
+                    .expendMore
+        .block
+            h3.bold.Upp filter date dropdown
+        .dropdown
+            input(class="defTextField filterDateDropdown darkShade25", type="text", value="19 авг - 23 авг")
+            .expendMore
+        .block
+            h3.bold.Upp subscription text field
+        .dropdownArrowForward
+            input(class="defTextField sub darkShade25", type="e-mail", value="Email")
+            .arrowForward
