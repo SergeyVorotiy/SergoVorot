@@ -12,6 +12,9 @@
 .jconbetween {
     justify-content: space-between;
 }
+.jconaround {
+    justify-content: space-around;
+}
 .alignLeft {
     text-align: left;
 }
