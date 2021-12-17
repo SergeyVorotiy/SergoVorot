@@ -95,3 +95,46 @@
 .counter {
     width: 92px;
 }
+.expandableCheckboxList {
+    width: 266px;
+    height: 44px;
+
+}
+.expandableCheckboxListItems {
+    width: 266px;
+}
+.expandableCheckboxListItemsItem {
+    width: 266px;
+    height: 20px;
+    margin: 0;
+}
+.expandableCheckboxListItemsItem p {
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-block-start: 0;
+    margin-block-end: 5px;
+}
+.expandableCheckboxListItemsItemCheckbox {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+}
+.expandableCheckboxListItemsItemCheckboxChecked {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../../images/checkboxChecked.svg") no-repeat center center;
+}
+
+.itsCheck {
+
+}
+.mt10 {
+    margin-top: 10px;
+}
