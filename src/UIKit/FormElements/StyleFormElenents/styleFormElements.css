@@ -132,8 +132,34 @@
     background: url("../../../images/checkboxChecked.svg") no-repeat center center;
 }
 
-.itsCheck {
-
+.preferences {
+    width: 291px;
+    height: 158px;
+}
+.preferencesItem {
+    width: 291px;
+    height: 51px;
+}
+.emotionIcon {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url("../../../images/insert_emoticon.svg") no-repeat center center;
+}
+.locCityIcon{
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url("../../../images/location_city.svg") no-repeat center center;
+}
+.prefItem p {
+    margin: 0;
+    margin-left: 10px;
+}
+.prefItem p:first-child {
+    font-weight: bold;
 }
 .mt10 {
     margin-top: 10px;

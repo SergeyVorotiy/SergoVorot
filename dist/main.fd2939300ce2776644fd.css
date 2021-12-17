@@ -256,8 +256,34 @@ body {
     background: url(4057835e73cb3eb26476.svg) no-repeat center center;
 }
 
-.itsCheck {
-
+.preferences {
+    width: 291px;
+    height: 158px;
+}
+.preferencesItem {
+    width: 291px;
+    height: 51px;
+}
+.emotionIcon {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url(bff4d8d74f2fa6026d27.svg) no-repeat center center;
+}
+.locCityIcon{
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url(ba4bbd6a0da5a6dedd41.svg) no-repeat center center;
+}
+.prefItem p {
+    margin: 0;
+    margin-left: 10px;
+}
+.prefItem p:first-child {
+    font-weight: bold;
 }
 .mt10 {
     margin-top: 10px;
@@ -312,3 +338,4 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+
