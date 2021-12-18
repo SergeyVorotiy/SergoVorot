@@ -49,3 +49,8 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+p {
+    margin: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}

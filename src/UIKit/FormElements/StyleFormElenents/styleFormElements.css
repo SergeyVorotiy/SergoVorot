@@ -1,6 +1,7 @@
 .column {
     display: block;
     width: 320px;
+    font-family: Conv_Montserrat;
 }
 .defTextField {
     width: 320px;
@@ -163,4 +164,115 @@
 }
 .mt10 {
     margin-top: 10px;
+}
+.checkboxButtons {
+    width: 222px;
+    margin: 0;
+}
+.checkboxButtonsItems {
+    display: block;
+    width: 222px;
+    line-height: 20px;
+}
+.checkboxButtonsItem p{
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 10px;
+    line-height: 20px;
+    width: 170px;
+}
+.checkboxButtonsItemCheckboxChecked {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../../images/checkboxChecked.svg") no-repeat center center;
+}
+.checkboxButtonsItemCheckbox {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+}
+.radiobuttonsBlock {
+    width: 220px;
+}
+.radiobutton {
+    width: 220px;
+    height: 55px;
+}
+.radiobutton p {
+    margin-left: 10px;
+}
+.radiobutton-checker-checked {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../../images/radioChecker.svg") no-repeat center center;
+}
+.radiobutton-checker {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 10px;
+}
+.toggleBox {
+    width: 260px;
+}
+.toggleItem p{
+    width: 210px;
+    margin-left: 10px;
+}
+.toggleChecker {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background: url("../../../images/noToggle.svg") no-repeat center center;
+}
+.toggleChecker-check {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background: url("../../../images/toggle.svg") no-repeat center center;
+}
+.likeButtonBox {
+    width: 90px;
+}
+.unLike {
+    width: 38px;
+    height: 18px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 10px;
+}
+.liked {
+    display: block;
+    width: 38px;
+    height: 18px;
+    border: 1px solid #BC9CFF;
+    border-radius: 10px;
+    color: #BC9CFF;
+}
+.liked p {
+    margin-left: 2px;
+    line-height: 20px;
+}
+.unLike p {
+    margin-left: 2px;
+    line-height: 20px;
+}
+.heart {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../../images/heart.svg") no-repeat center center;
+}
+.gradientHeart {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../../images/gradientHeart.svg") no-repeat center center;
 }
