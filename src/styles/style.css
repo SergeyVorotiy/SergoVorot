@@ -1,7 +1,7 @@
-@import "@src/fonts/fonts.css";
-@import "@src/UIKit/Cards/styleCards/cards.css";
-@import "@src/UIKit/ColorsAndType/StyleCAT/styleCAT.css";
-@import "@src/UIKit/FormElements/StyleFormElenents/styleFormElements.css";
+@import "../fonts/fonts.css";
+@import "../UIKit/Cards/styleCards/cards.css";
+@import "../UIKit/ColorsAndType/StyleCAT/styleCAT.css";
+@import "../UIKit/FormElements/StyleFormElenents/styleFormElements.css";
 .flex {
     display: flex;
 }
@@ -53,4 +53,7 @@ p {
     margin: 0;
     margin-block-end: 0;
     margin-block-start: 0;
+}
+.bold {
+    font-family: Conv_Montserrat_Bold;
 }

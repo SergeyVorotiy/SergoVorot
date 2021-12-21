@@ -26,13 +26,13 @@
     width: 44px;
     height: 44px;
     margin-left: -44px;
-    background: url("../../../images/expandMore.svg") no-repeat center center;
+    background: url("@src/images/expandMore.svg") no-repeat center center;
 }
 .arrowForward {
     width: 44px;
     height: 44px;
     margin-left: -44px;
-    background: url("../../../images/arrowForward.svg") no-repeat center center;
+    background: url("@src/images/arrowForward.svg") no-repeat center center;
 }
 .dateDropdown {
     width: 150px;
@@ -54,15 +54,17 @@
     border-bottom-left-radius: 0;
 }
 .dropdownMenu {
-    width: 266px;
-    border: 1px solid rgba(31, 32, 65, 0.5);
+    width: 234px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    margin: 0;
+    padding: 15px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 .minusBtn {
 
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border-radius: 22px;
     border: 1px solid rgba(31, 32, 65, 0.5);
 }
@@ -78,8 +80,8 @@
 }
 .plusBtn {
 
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border-radius: 22px;
     border: 1px solid rgba(31, 32, 65, 0.5);
 }
@@ -89,7 +91,7 @@
     height: 30px;
     line-height: 30px;
     text-align: center;
-    padding-left: 11px;
+    padding-left: 10px;
     color: #1F2041;
     opacity: 0.5;
 }
@@ -130,7 +132,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url("../../../images/checkboxChecked.svg") no-repeat center center;
+    background: url("@src/images/checkboxChecked.svg") no-repeat center center;
 }
 
 .preferences {
@@ -146,14 +148,14 @@
     display: inline-block;
     width: 48px;
     height: 48px;
-    background: url("../../../images/insert_emoticon.svg") no-repeat center center;
+    background: url("@src/images/insert_emoticon.svg") no-repeat center center;
 }
 .locCityIcon{
     content: '';
     display: inline-block;
     width: 48px;
     height: 48px;
-    background: url("../../../images/location_city.svg") no-repeat center center;
+    background: url("@src/images/location_city.svg") no-repeat center center;
 }
 .prefItem p {
     margin: 0;
@@ -186,7 +188,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url("../../../images/checkboxChecked.svg") no-repeat center center;
+    background: url("@src/images/checkboxChecked.svg") no-repeat center center;
 }
 .checkboxButtonsItemCheckbox {
     content: '';
@@ -210,7 +212,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url("../../../images/radioChecker.svg") no-repeat center center;
+    background: url("@src/images/radioChecker.svg") no-repeat center center;
 }
 .radiobutton-checker {
     content: '';
@@ -231,13 +233,13 @@
     display: inline-block;
     width: 40px;
     height: 20px;
-    background: url("../../../images/noToggle.svg") no-repeat center center;
+    background: url("@src/images/noToggle.svg") no-repeat center center;
 }
 .toggleChecker-check {
     display: inline-block;
     width: 40px;
     height: 20px;
-    background: url("../../../images/toggle.svg") no-repeat center center;
+    background: url("@src/images/toggle.svg") no-repeat center center;
 }
 .likeButtonBox {
     width: 90px;
@@ -268,11 +270,18 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url("../../../images/heart.svg") no-repeat center center;
+    background: url("@src/images/heart.svg") no-repeat center center;
 }
 .gradientHeart {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: url("../../../images/gradientHeart.svg") no-repeat center center;
+    background: url("@src/images/gradientHeart.svg") no-repeat center center;
+}
+
+.iconLink {
+    color: #BC9CFF;
+}
+.iconLink p {
+    text-align: right;
 }
