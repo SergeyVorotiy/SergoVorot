@@ -285,3 +285,80 @@
 .iconLink p {
     text-align: right;
 }
+.rangeSlider {
+    display: block;
+    width: 266px;
+    height: 48px;
+}
+.rangeSlider .slider {
+    display: block;
+    width: 266px;
+    height: 6px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.rangeSlider .slider .rect {
+    display: block;
+    width: 88px;
+    height: 6px;
+    border-top: 3px white solid;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    margin-left: 88px;
+    margin-top: -3px;
+}
+.rangeSlider .slider .rect:before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-left: -8px;
+    margin-top: -5px;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+
+}
+.rangeSlider .slider .rect:after {
+    content: "";
+    display: block;
+    margin-left: 84px;
+    margin-top: -16px;
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+
+}
+.buttons {
+    display: block;
+    width: 218px;
+    height: 195px;
+    margin-top: 40px;
+}
+.btnGroup {
+    margin-top: 16px;
+}
+.buttons .btnGroup .normal button{
+    display: block;
+    font-family: Conv_Montserrat_Bold;
+    width: 99px;
+    height: 44px;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+.buttons .btnGroup .hover button {
+    display: block;
+    font-family: Conv_Montserrat-Regular;
+    width: 99px;
+    height: 44px;
+    border: none;
+    border-radius: 22px;
+    color: white;
+    opacity: 0.5;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
